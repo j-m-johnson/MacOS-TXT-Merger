@@ -33,3 +33,27 @@ Ideal for combining lecture transcripts, meeting notes, logs, exported text docu
 - Plain-text `.txt` files
 
 No Python, Homebrew, or external dependencies required.
+
+## Installation
+
+1. Download [`Merge TXT Files.workflow.zip`](./Merge%20TXT%20Files.workflow.zip) from this repository.
+2. Extract the ZIP archive.
+3. Double-click `Merge TXT Files.workflow`.
+4. Click **Install** when prompted by macOS.
+5. Open Finder, select two or more `.txt` files, and right-click → **Quick Actions → Merge TXT Files**.
+
+No additional dependencies are required.
+
+### Manual Installation
+
+If the workflow doesn't install automatically, copy `Merge TXT Files.workflow` into:
+
+`~/Library/Services/`
+
+You can open this directory in Finder using `Cmd + Shift + G`.
+
+### Source Code
+
+The underlying Zsh and AppleScript implementation is available in [`merge-txt.sh`](./merge-txt.sh).
+
+**Note:** File merging follows the order Automator receives files from Finder. Command-click ordering was verified during development, but may vary across macOS versions or Finder configurations.
