@@ -36,7 +36,7 @@ No Python, Homebrew, or external dependencies required.
 
 ## Installation
 
-1. Download [`Merge TXT Files.workflow.zip`](./Merge%20TXT%20Files.workflow.zip) from this repository.
+1. Download [`MergeTXTFiles.workflow.zip`](./Merge%20TXT%20Files.workflow.zip) from this repository.
 2. Extract the ZIP archive.
 3. Double-click `Merge TXT Files.workflow`.
 4. Click **Install** when prompted by macOS.
